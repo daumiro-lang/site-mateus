@@ -195,7 +195,7 @@ em { font-family: var(--font-serif); font-style: italic; font-weight: 400; lette
   box-shadow: 0 30px 60px -20px rgba(0,0,0,0.6);
   transform: rotate(-2deg);
 }
-.bust-card--lime { background: var(--lime); color: var(--black); }
+.bust-card--paper { background: var(--bone); color: var(--black); }
 .bust-card__tag {
   font-size: 11px;
   letter-spacing: 0.22em;

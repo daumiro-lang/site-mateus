@@ -1,4 +1,4 @@
-# Mateus Thessing — Site
+# Mateus Thessing - Site
 
 Landing page estática para o psicólogo clínico Mateus Thessing (CRP 03/23085).
 
@@ -27,11 +27,11 @@ Publicado via GitHub Pages a partir da branch `main`.
 
 ## Conteúdo
 
-- Hero com CTA WhatsApp e Doctoralia
+- Hero com foto e contato via WhatsApp
 - 4 especialidades (TDAH adulto, burnout, depressão, ansiosos)
 - 3 produtos (Sessão de avaliação, Pacote de sessões, Laudo TDAH)
-- Sobre, FAQ, contato
-- Footer com CRP
+- Sobre, Instagram, FAQ
+- Footer com CRP e contato
 
 ## Contato
 

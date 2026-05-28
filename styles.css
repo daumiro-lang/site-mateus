@@ -1,5 +1,5 @@
 /* =========================================================
-   MATEUS THESSING — Psicólogo Clínico
+   MATEUS THESSING - Psicólogo Clínico
    Brutalist clinical. Black + lime neon + orange + bone.
    ========================================================= */
 
@@ -163,11 +163,6 @@ em { font-family: var(--font-serif); font-style: italic; font-weight: 400; lette
   margin: 0 0 36px;
 }
 
-.hero__cta {
-  display: flex; flex-wrap: wrap; gap: 12px;
-  margin-bottom: 32px;
-}
-
 .hero__chips {
   list-style: none;
   display: flex; flex-wrap: wrap; gap: 10px;
@@ -183,7 +178,7 @@ em { font-family: var(--font-serif); font-style: italic; font-weight: 400; lette
   font-weight: 700;
 }
 
-/* Hero art — greek bust card */
+/* Hero art - photo card */
 .hero__art {
   display: flex; justify-content: center;
 }
@@ -295,7 +290,7 @@ em { font-family: var(--font-serif); font-style: italic; font-weight: 400; lette
 }
 .section__title em { color: var(--lime); font-style: italic; }
 
-/* ESPECIALIDADES — light section */
+/* ESPECIALIDADES - light section */
 .section--especialidades {
   background: var(--lime);
   color: var(--black);
@@ -494,8 +489,10 @@ em { font-family: var(--font-serif); font-style: italic; font-weight: 400; lette
 .section--social { background: var(--black); }
 .social__grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 18px;
+  max-width: 640px;
+  margin: 0 auto;
 }
 .social__card {
   display: flex; flex-direction: column;
@@ -572,23 +569,6 @@ em { font-family: var(--font-serif); font-style: italic; font-weight: 400; lette
 }
 .faq details[open] summary::after { transform: translateY(-50%) rotate(45deg); }
 .faq details p { margin: 14px 0 0; line-height: 1.55; max-width: 760px; opacity: 0.82; }
-
-/* CTA FINAL */
-.cta {
-  text-align: center;
-  background: var(--black);
-}
-.cta__inner { max-width: 820px; margin: 0 auto; }
-.cta__title {
-  font-size: clamp(40px, 6vw, 78px);
-  line-height: 0.95;
-  letter-spacing: -0.03em;
-  font-weight: 900;
-  margin: 0 0 22px;
-}
-.cta__title em { color: var(--lime); font-style: italic; }
-.cta__sub { font-size: 18px; opacity: 0.78; max-width: 540px; margin: 0 auto 36px; }
-.cta__buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
 
 /* FOOTER */
 .footer {

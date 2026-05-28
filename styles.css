@@ -208,7 +208,7 @@ em { font-family: var(--font-serif); font-style: italic; font-weight: 400; lette
 .bust-card__photo {
   flex: 1;
   position: relative;
-  margin: 12px -24px 0;
+  margin: 12px -24px -24px;
   overflow: hidden;
   display: flex;
   align-items: flex-end;
@@ -218,21 +218,7 @@ em { font-family: var(--font-serif); font-style: italic; font-weight: 400; lette
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 55% 35%;
-  filter: grayscale(1) contrast(1.15);
-  mix-blend-mode: multiply;
-  /* Multiply over lime: white -> lime, black -> black. Duo-tone effect. */
-}
-/* Soft vignette to integrate the photo with the card edges */
-.bust-card__photo::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(ellipse at center, transparent 55%, rgba(212,255,61,0.35) 100%),
-    linear-gradient(to bottom, transparent 70%, rgba(212,255,61,0.55) 100%);
-  pointer-events: none;
-  mix-blend-mode: lighten;
+  object-position: center 20%;
 }
 .bust-card__caption {
   position: absolute;
